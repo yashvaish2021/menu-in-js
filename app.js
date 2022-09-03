@@ -109,14 +109,14 @@ menu.forEach(function (item) {
   const header = window.document.createElement("header");
 
   //appending them in html
-  article.appendChild(div);
   article.appendChild(img);
+  article.appendChild(div);
+
+  div.appendChild(header);
+  div.appendChild(description);
 
   header.appendChild(price);
   header.appendChild(heading);
-
-  div.appendChild(description);
-  div.appendChild(header);
 
   mainContainer.appendChild(article);
 
@@ -146,14 +146,14 @@ allBtn.addEventListener("click", function () {
     const header = window.document.createElement("header");
 
     //appending them in html
-    article.appendChild(div);
     article.appendChild(img);
+    article.appendChild(div);
+
+    div.appendChild(header);
+    div.appendChild(description);
 
     header.appendChild(price);
     header.appendChild(heading);
-
-    div.appendChild(description);
-    div.appendChild(header);
 
     mainContainer.appendChild(article);
 
@@ -194,14 +194,14 @@ breakfastBtn.addEventListener("click", function () {
     const header = window.document.createElement("header");
 
     //appending them in html
-    article.appendChild(div);
     article.appendChild(img);
+    article.appendChild(div);
+
+    div.appendChild(header);
+    div.appendChild(description);
 
     header.appendChild(price);
     header.appendChild(heading);
-
-    div.appendChild(description);
-    div.appendChild(header);
 
     mainContainer.appendChild(article);
 
@@ -242,14 +242,14 @@ lunchBtn.addEventListener("click", function () {
     const header = window.document.createElement("header");
 
     //appending them in html
-    article.appendChild(div);
     article.appendChild(img);
+    article.appendChild(div);
+
+    div.appendChild(header);
+    div.appendChild(description);
 
     header.appendChild(price);
     header.appendChild(heading);
-
-    div.appendChild(description);
-    div.appendChild(header);
 
     mainContainer.appendChild(article);
 
@@ -290,14 +290,14 @@ shakeBtn.addEventListener("click", function () {
     const header = window.document.createElement("header");
 
     //appending them in html
-    article.appendChild(div);
     article.appendChild(img);
+    article.appendChild(div);
+
+    div.appendChild(header);
+    div.appendChild(description);
 
     header.appendChild(price);
     header.appendChild(heading);
-
-    div.appendChild(description);
-    div.appendChild(header);
 
     mainContainer.appendChild(article);
 

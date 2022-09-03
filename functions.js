@@ -148,8 +148,8 @@ function renderContent(items) {
     div.appendChild(header);
     div.appendChild(description);
 
-    header.appendChild(heading);
     header.appendChild(price);
+    header.appendChild(heading);
 
     // class
     article.classList.add("menu-item");
