@@ -115,8 +115,8 @@ menu.forEach(function (item) {
   div.appendChild(header);
   div.appendChild(description);
 
-  header.appendChild(price);
   header.appendChild(heading);
+  header.appendChild(price);
 
   mainContainer.appendChild(article);
 
@@ -152,8 +152,8 @@ allBtn.addEventListener("click", function () {
     div.appendChild(header);
     div.appendChild(description);
 
-    header.appendChild(price);
     header.appendChild(heading);
+    header.appendChild(price);
 
     mainContainer.appendChild(article);
 
@@ -200,8 +200,8 @@ breakfastBtn.addEventListener("click", function () {
     div.appendChild(header);
     div.appendChild(description);
 
-    header.appendChild(price);
     header.appendChild(heading);
+    header.appendChild(price);
 
     mainContainer.appendChild(article);
 
@@ -248,8 +248,8 @@ lunchBtn.addEventListener("click", function () {
     div.appendChild(header);
     div.appendChild(description);
 
-    header.appendChild(price);
     header.appendChild(heading);
+    header.appendChild(price);
 
     mainContainer.appendChild(article);
 
@@ -296,8 +296,8 @@ shakeBtn.addEventListener("click", function () {
     div.appendChild(header);
     div.appendChild(description);
 
-    header.appendChild(price);
     header.appendChild(heading);
+    header.appendChild(price);
 
     mainContainer.appendChild(article);
 
