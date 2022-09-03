@@ -130,12 +130,13 @@ menu.forEach(function (item) {
 
   //assining values
   img.src = item.img;
-  price.textContent = item.price;
+  price.textContent = `$${item.price}`;
   heading.textContent = item.title;
   description.textContent = item.desc;
 });
 
 allBtn.addEventListener("click", function () {
+  mainContainer.innerHTML = "";
   menu.forEach(function (item) {
     const article = window.document.createElement("article");
     const img = window.document.createElement("img");
@@ -167,7 +168,7 @@ allBtn.addEventListener("click", function () {
 
     //assining values
     img.src = item.img;
-    price.textContent = item.price;
+    price.textContent = `$${item.price}`;
     heading.textContent = item.title;
     description.textContent = item.desc;
   });
@@ -215,7 +216,7 @@ breakfastBtn.addEventListener("click", function () {
 
     //assining values
     img.src = breakfastItem.img;
-    price.textContent = breakfastItem.price;
+    price.textContent = `$${breakfastItem.price}`;
     heading.textContent = breakfastItem.title;
     description.textContent = breakfastItem.desc;
   });
@@ -263,7 +264,7 @@ lunchBtn.addEventListener("click", function () {
 
     //assining values
     img.src = lunchItem.img;
-    price.textContent = lunchItem.price;
+    price.textContent = `$ ${lunchItem.price}`;
     heading.textContent = lunchItem.title;
     description.textContent = lunchItem.desc;
   });
@@ -311,7 +312,7 @@ shakeBtn.addEventListener("click", function () {
 
     //assining values
     img.src = shakeItem.img;
-    price.textContent = shakeItem.price;
+    price.textContent = `$${shakeItem.price}`;
     heading.textContent = shakeItem.title;
     description.textContent = shakeItem.desc;
   });
